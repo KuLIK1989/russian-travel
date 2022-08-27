@@ -1,0 +1,9 @@
+.header{
+    background-color:#2A2C2F;
+    height: 52px;
+    max-width: 1184px;
+    margin:28px 48px 0 48px;
+    border:1px solid red;
+    display: flex;
+    position:relative
+}
