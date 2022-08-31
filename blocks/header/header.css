@@ -4,21 +4,23 @@
     display: flex;
 }
 
-@media screen and (max-width:1279px){
-    .header{
+@media screen and (max-width:1279px) {
+    .header {
         max-width: 928px;
     }
 }
+
 @media screen and (max-width:1023px) {
-    .header{
-        max-width:720px;
+    .header {
+        max-width: 720px;
         padding: 28px 24px 0 24px;
-    }    
+    }
 }
+
 @media screen and (max-width:767px) {
-    .header{
-        max-width:288px;
+    .header {
+        max-width: 288px;
         padding: 16px 16px 0 16px;
     }
-    
+
 }

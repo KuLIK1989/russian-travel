@@ -1,4 +1,4 @@
-.cover{
+.cover {
    max-width: 1184px;
    max-height: 740px;
    margin: 92px 48px 0px 48px;
@@ -6,20 +6,23 @@
    background-size: cover;
    background-position: center;
 }
+
 @media screen and (max-width:1279px) {
-   .cover{
+   .cover {
       max-width: 1024px;
-   }   
-}
-@media screen and (max-width:1023px) {
-   .cover{
-      max-width:768px;
-      margin: 90px 0 0 0;
-   }   
-}
-@media screen and (max-width:767px) {
-   .cover{
-      max-width:320px;
    }
-   
+}
+
+@media screen and (max-width:1023px) {
+   .cover {
+      max-width: 768px;
+      margin: 90px 0 0 0;
+   }
+}
+
+@media screen and (max-width:767px) {
+   .cover {
+      max-width: 320px;
+   }
+
 }
