@@ -1,0 +1,21 @@
+.cover__link{
+   max-width:1184px;
+   min-height: 740px;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+   text-decoration: none;
+   justify-content: center;
+   align-items: center;
+   background-color:rgba(42, 44, 47,0.3);   
+}
+.cover__link:hover {
+   background-color: rgba(42, 44, 47,0.8);
+}
+@media screen and (max-width:767px) {
+   .cover__link{
+      max-width: 320px;
+      min-height: 200px;
+   }   
+}

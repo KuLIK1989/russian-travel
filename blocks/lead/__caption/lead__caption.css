@@ -6,9 +6,9 @@
   line-height: 14px;
   width: 158px;
   height: 14px;
-  color: #ffffff;
-  margin: 8px 0 0 0;
+  color: #ffffff;  
   letter-spacing: 1.5px;
   text-transform: uppercase;
   white-space: nowrap;
+  margin: 0;
 }
