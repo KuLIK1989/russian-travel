@@ -1,20 +1,15 @@
 .footer__links {
-   display: flex;
-   flex-direction: row;
-   list-style-type: none;
-   margin: 0px;
-   padding: 0px;
-   column-gap:18px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  column-gap: 18px;
 }
-.footer__links:last-of-type{
-   column-gap: 0;
-}
-
-
-@media screen and (max-width:767px) {
-   .footer__links {
-      flex-direction: column;
-      row-gap: 32px;
-      margin-bottom: 46px;
-   }
+@media screen and (max-width: 767px) {
+  .footer__links {
+    flex-direction: column;
+    row-gap: 32px;
+    margin-bottom: 46px;
+  }
 }
