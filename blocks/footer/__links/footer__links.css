@@ -4,7 +4,12 @@
    list-style-type: none;
    margin: 0px;
    padding: 0px;
+   column-gap:18px;
 }
+.footer__links:last-of-type{
+   column-gap: 0;
+}
+
 
 @media screen and (max-width:767px) {
    .footer__links {
